@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+    Minimal template watch face (WFF v4): digital time + date.
+    Canvas 432x432 (Galaxy Watch 40 mm); the system scales it to the real screen.
+-->
+<WatchFace width="432" height="432">
+    <Metadata key="CLOCK_TYPE" value="DIGITAL" />
+    <Metadata key="PREVIEW_TIME" value="10:08:32" />
+    <Scene backgroundColor="#ff000000">
+        <DigitalClock x="0" y="0" width="432" height="432">
+            <!-- Interactive mode -->
+            <TimeText format="hh:mm" hourFormat="SYNC_TO_DEVICE" align="CENTER"
+                x="0" y="156" width="432" height="110" alpha="255">
+                <Variant mode="AMBIENT" target="alpha" value="0" />
+                <Font family="SYNC_TO_DEVICE" size="110" weight="NORMAL" color="#ff33ff66" />
+            </TimeText>
+            <!-- Ambient mode: thin weight -->
+            <TimeText format="hh:mm" hourFormat="SYNC_TO_DEVICE" align="CENTER"
+                x="0" y="156" width="432" height="110" alpha="0">
+                <Variant mode="AMBIENT" target="alpha" value="255" />
+                <Font family="SYNC_TO_DEVICE" size="110" weight="THIN" color="#ff33ff66" />
+            </TimeText>
+        </DigitalClock>
+        <PartText x="0" y="276" width="432" height="40">
+            <Text align="CENTER">
+                <Font family="SYNC_TO_DEVICE" size="28" color="#ffb0ffc4">
+                    <Template>%s %s %s<Parameter expression="[DAY_OF_WEEK_S]" /><Parameter expression="[DAY]" /><Parameter expression="[MONTH_S]" /></Template>
+                </Font>
+            </Text>
+        </PartText>
+    </Scene>
+</WatchFace>
