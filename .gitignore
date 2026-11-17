@@ -1,0 +1,14 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+
+# Validator built from google/watchface (see shared/scripts/validate.sh)
+shared/tools/
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
