@@ -1,0 +1,1179 @@
+<?xml version="1.0"?>
+<!-- Centinela: vector-arcade watch face (WFF v4). Generated from the approved prototype; canvas 438x438. -->
+<WatchFace width="438" height="438" clipShape="CIRCLE">
+    <Metadata key="CLOCK_TYPE" value="DIGITAL" />
+    <Metadata key="PREVIEW_TIME" value="10:08:32" />
+    <UserConfigurations>
+        <ColorConfiguration id="palette" displayName="Color" defaultValue="navy">
+            <ColorOption id="navy" displayName="Azul marino" colors="#ff4f86ff #ff2b4fa8 #ff3c66cc" />
+            <ColorOption id="phosphorGreen" displayName="Fósforo" colors="#ff33ff66 #ff1a9940 #ff2acc52" />
+            <ColorOption id="amber" displayName="Ámbar" colors="#ffffb000 #ff996a00 #ffcc8d00" />
+            <ColorOption id="cyan" displayName="Cian" colors="#ff00e5ff #ff008a99 #ff00b7cc" />
+            <ColorOption id="magenta" displayName="Magenta" colors="#ffff3dcb #ff99257a #ffcc31a2" />
+            <ColorOption id="white" displayName="Blanco" colors="#ffe8f0e8 #ff8b908b #ffbac0ba" />
+        </ColorConfiguration>
+    </UserConfigurations>
+    <Scene backgroundColor="#ff000000">
+        <!-- Interactive mode -->
+        <Group name="interactive" x="0" y="0" width="438" height="438">
+            <Variant mode="AMBIENT" target="alpha" value="0"/>
+            <!-- Stars -->
+            <PartDraw x="283" y="134" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*0.9425+0.334)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="344" y="196" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*1.9897+2.838)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="244" y="64" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*1.8850+2.626)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="162" y="233" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.1991+0.716)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="144" y="225" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.8274+1.593)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="144" y="221" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*1.1519+2.725)))"/>
+                <Rectangle x="0.5" y="0.5" width="2" height="2"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="162" y="74" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*1.9897+0.909)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="297" y="145" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.1991+2.554)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="95" y="215" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.9322+4.934)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="278" y="164" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.9322+1.741)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="181" y="106" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*1.9897+1.687)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="230" y="134" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.0944+4.305)))"/>
+                <Rectangle x="0.5" y="0.5" width="2" height="2"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="210" y="58" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.7227+3.534)))"/>
+                <Rectangle x="0.5" y="0.5" width="2" height="2"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="215" y="101" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.8274+6.249)))"/>
+                <Rectangle x="0.5" y="0.5" width="2" height="2"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="380" y="248" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.9322+1.497)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="360" y="144" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*1.9897+4.069)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="99" y="176" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*1.9897+2.562)))"/>
+                <Rectangle x="0.5" y="0.5" width="2" height="2"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="180" y="141" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*1.1519+2.776)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="216" y="102" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.8274+0.733)))"/>
+                <Rectangle x="0.5" y="0.5" width="2" height="2"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="159" y="182" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*1.5708+5.307)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="373" y="231" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.0944+3.530)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="125" y="198" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*2.9322+1.286)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="315" y="156" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*0.8378+5.779)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="279" y="195" width="3" height="3">
+                <Transform target="alpha" value="255*(0.25+0.4*(0.5+0.5*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*0.8378+2.081)))"/>
+                <Rectangle x="0.85" y="0.85" width="1.3" height="1.3"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <!-- Asteroids: 3 slots, each cycles 4 asteroids per minute -->
+            <Group name="asteroid_0_0" x="0" y="0" width="48" height="48" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?299:144)))-24"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?139:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?199:184)))-24"/>
+                <Transform target="alpha" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0||floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2)?255:0"/>
+                <Transform target="angle" value="deg(1.1*(([SECOND]+[SECOND_MILLISECOND]/1000)+0+9*floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))))"/>
+                <Transform target="scaleX" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/0.5,0,1)"/>
+                <Transform target="scaleY" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/0.5,0,1)"/>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="39">
+                    <Line startX="36.32" startY="24" endX="29.03" endY="34.05"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="36.32" startY="24" endX="33.06" endY="14.94"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="9.8" startY="24" endX="19.23" endY="14.46"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="9.8" startY="24" endX="15.74" endY="32.26"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="29.03" startY="34.05" endX="15.74" endY="32.26"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="19.23" startY="14.46" endX="33.06" endY="14.94"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="242">
+                    <Line startX="36.32" startY="24" endX="29.03" endY="34.05"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="36.32" startY="24" endX="19.23" endY="14.46"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="36.32" startY="24" endX="33.06" endY="14.94"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="36.32" startY="24" endX="15.74" endY="32.26"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="9.8" startY="24" endX="29.03" endY="34.05"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="9.8" startY="24" endX="19.23" endY="14.46"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="9.8" startY="24" endX="33.06" endY="14.94"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="9.8" startY="24" endX="15.74" endY="32.26"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="29.03" startY="34.05" endX="33.06" endY="14.94"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="29.03" startY="34.05" endX="15.74" endY="32.26"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="19.23" startY="14.46" endX="33.06" endY="14.94"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="19.23" startY="14.46" endX="15.74" endY="32.26"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="asteroid_0_1" x="0" y="0" width="48" height="48" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?299:144)))-24"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?139:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?199:184)))-24"/>
+                <Transform target="alpha" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1||floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==3)?255:0"/>
+                <Transform target="angle" value="deg(1.1*(([SECOND]+[SECOND_MILLISECOND]/1000)+0+9*floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))))"/>
+                <Transform target="scaleX" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/0.5,0,1)"/>
+                <Transform target="scaleY" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/0.5,0,1)"/>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="39">
+                    <Line startX="14.55" startY="24" endX="16.94" endY="9.88"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="14.55" startY="24" endX="14.96" endY="33.04"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="31.64" startY="39.27" endX="34.01" endY="13.99"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="31.64" startY="39.27" endX="14.96" endY="33.04"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="16.94" startY="9.88" endX="34.01" endY="13.99"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="242">
+                    <Line startX="32.58" startY="24" endX="31.64" endY="39.27"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="32.58" startY="24" endX="16.94" endY="9.88"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="32.58" startY="24" endX="34.01" endY="13.99"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="32.58" startY="24" endX="14.96" endY="33.04"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="14.55" startY="24" endX="31.64" endY="39.27"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="14.55" startY="24" endX="16.94" endY="9.88"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="14.55" startY="24" endX="34.01" endY="13.99"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="14.55" startY="24" endX="14.96" endY="33.04"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="31.64" startY="39.27" endX="34.01" endY="13.99"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="31.64" startY="39.27" endX="14.96" endY="33.04"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="16.94" startY="9.88" endX="34.01" endY="13.99"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="16.94" startY="9.88" endX="14.96" endY="33.04"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="asteroid_1_0" x="0" y="0" width="48" height="48" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?359:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?74:124)))-24"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?209:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?214:94)))-24"/>
+                <Transform target="alpha" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0||floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2)?255:0"/>
+                <Transform target="angle" value="deg(1.1*(([SECOND]+[SECOND_MILLISECOND]/1000)+3+9*floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))))"/>
+                <Transform target="scaleX" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/0.5,0,1)"/>
+                <Transform target="scaleY" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/0.5,0,1)"/>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="39">
+                    <Line startX="33.06" startY="24" endX="32.3" endY="40.6"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="33.06" startY="24" endX="31.65" endY="16.35"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="13.97" startY="24" endX="16.38" endY="8.75"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="13.97" startY="24" endX="16.93" endY="31.07"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="32.3" startY="40.6" endX="16.93" endY="31.07"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="16.38" startY="8.75" endX="31.65" endY="16.35"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="242">
+                    <Line startX="33.06" startY="24" endX="32.3" endY="40.6"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="33.06" startY="24" endX="16.38" endY="8.75"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="33.06" startY="24" endX="31.65" endY="16.35"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="33.06" startY="24" endX="16.93" endY="31.07"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="13.97" startY="24" endX="32.3" endY="40.6"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="13.97" startY="24" endX="16.38" endY="8.75"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="13.97" startY="24" endX="31.65" endY="16.35"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="13.97" startY="24" endX="16.93" endY="31.07"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="32.3" startY="40.6" endX="31.65" endY="16.35"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="32.3" startY="40.6" endX="16.93" endY="31.07"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="16.38" startY="8.75" endX="31.65" endY="16.35"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="16.38" startY="8.75" endX="16.93" endY="31.07"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="asteroid_1_1" x="0" y="0" width="48" height="48" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?359:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?74:124)))-24"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?209:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?214:94)))-24"/>
+                <Transform target="alpha" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1||floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==3)?255:0"/>
+                <Transform target="angle" value="deg(1.1*(([SECOND]+[SECOND_MILLISECOND]/1000)+3+9*floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))))"/>
+                <Transform target="scaleX" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/0.5,0,1)"/>
+                <Transform target="scaleY" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/0.5,0,1)"/>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="39">
+                    <Line startX="36.77" startY="24" endX="29.67" endY="35.35"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="36.77" startY="24" endX="31.18" endY="16.82"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="9.2" startY="24" endX="18.65" endY="13.3"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="9.2" startY="24" endX="17.33" endY="30.67"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="29.67" startY="35.35" endX="17.33" endY="30.67"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="18.65" startY="13.3" endX="31.18" endY="16.82"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="242">
+                    <Line startX="36.77" startY="24" endX="29.67" endY="35.35"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="36.77" startY="24" endX="18.65" endY="13.3"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="36.77" startY="24" endX="31.18" endY="16.82"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="36.77" startY="24" endX="17.33" endY="30.67"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="9.2" startY="24" endX="29.67" endY="35.35"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="9.2" startY="24" endX="18.65" endY="13.3"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="9.2" startY="24" endX="31.18" endY="16.82"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="9.2" startY="24" endX="17.33" endY="30.67"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="29.67" startY="35.35" endX="31.18" endY="16.82"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="29.67" startY="35.35" endX="17.33" endY="30.67"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="18.65" startY="13.3" endX="31.18" endY="16.82"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="18.65" startY="13.3" endX="17.33" endY="30.67"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="asteroid_2_0" x="0" y="0" width="48" height="48" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?189:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?319:219)))-24"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?109:214)))-24"/>
+                <Transform target="alpha" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0||floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2)?255:0"/>
+                <Transform target="angle" value="deg(1.1*(([SECOND]+[SECOND_MILLISECOND]/1000)+6+9*floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))))"/>
+                <Transform target="scaleX" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/0.5,0,1)"/>
+                <Transform target="scaleY" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/0.5,0,1)"/>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="39">
+                    <Line startX="35.4" startY="24" endX="30.32" endY="36.65"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="35.4" startY="24" endX="30.72" endY="17.28"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="11.01" startY="24" endX="18.08" endY="12.15"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="11.01" startY="24" endX="17.73" endY="30.27"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="30.32" startY="36.65" endX="17.73" endY="30.27"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="18.08" startY="12.15" endX="30.72" endY="17.28"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="242">
+                    <Line startX="35.4" startY="24" endX="30.32" endY="36.65"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="35.4" startY="24" endX="18.08" endY="12.15"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="35.4" startY="24" endX="30.72" endY="17.28"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="35.4" startY="24" endX="17.73" endY="30.27"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="11.01" startY="24" endX="30.32" endY="36.65"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="11.01" startY="24" endX="18.08" endY="12.15"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="11.01" startY="24" endX="30.72" endY="17.28"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="11.01" startY="24" endX="17.73" endY="30.27"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="30.32" startY="36.65" endX="30.72" endY="17.28"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="30.32" startY="36.65" endX="17.73" endY="30.27"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="18.08" startY="12.15" endX="30.72" endY="17.28"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="18.08" startY="12.15" endX="17.73" endY="30.27"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="asteroid_2_1" x="0" y="0" width="48" height="48" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?189:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?319:219)))-24"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?109:214)))-24"/>
+                <Transform target="alpha" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1||floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==3)?255:0"/>
+                <Transform target="angle" value="deg(1.1*(([SECOND]+[SECOND_MILLISECOND]/1000)+6+9*floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))))"/>
+                <Transform target="scaleX" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/0.5,0,1)"/>
+                <Transform target="scaleY" value="clamp(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/0.5,0,1)"/>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="39">
+                    <Line startX="34.01" startY="24" endX="28.71" endY="33.41"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="34.01" startY="24" endX="35.45" endY="12.55"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="12.79" startY="24" endX="19.52" endY="15.04"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="12.79" startY="24" endX="13.8" endY="34.2"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="28.71" startY="33.41" endX="13.8" endY="34.2"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                    <Line startX="19.52" startY="15.04" endX="35.45" endY="12.55"><Stroke color="[CONFIGURATION.palette.0]" thickness="3.84" cap="ROUND"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="48" height="48" alpha="242">
+                    <Line startX="34.01" startY="24" endX="28.71" endY="33.41"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="34.01" startY="24" endX="19.52" endY="15.04"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="34.01" startY="24" endX="35.45" endY="12.55"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="34.01" startY="24" endX="13.8" endY="34.2"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="12.79" startY="24" endX="28.71" endY="33.41"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="12.79" startY="24" endX="19.52" endY="15.04"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="12.79" startY="24" endX="35.45" endY="12.55"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="12.79" startY="24" endX="13.8" endY="34.2"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="28.71" startY="33.41" endX="35.45" endY="12.55"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="28.71" startY="33.41" endX="13.8" endY="34.2"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="19.52" startY="15.04" endX="35.45" endY="12.55"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="19.52" startY="15.04" endX="13.8" endY="34.2"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <!-- Blasts -->
+            <Group name="blast_0_0" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?99:299)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?-0.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?0.63:-0.21)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?184:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?139:199)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?0.45:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?0:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?0.78:0.98)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?153:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?0:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?51:102)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_0_1" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?99:299)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?-0.95:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?0.71:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?-0.1:-0.84)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?184:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?139:199)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?-0.31:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?0.71:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?0.99:0.54)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?198:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?45:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?96:147)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_0_2" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?99:299)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?-0.45:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?0:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?-0.78:-0.98)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?184:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?139:199)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?-0.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?0.63:-0.21)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?243:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?90:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?141:192)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_0_3" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?99:299)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?0.31:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?-0.71:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?-0.99:-0.54)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?184:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?139:199)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?-0.95:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?0.71:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?-0.1:-0.84)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?288:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?135:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?186:237)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_0_4" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?99:299)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?0.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?-1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?-0.63:0.21)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?184:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?139:199)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?-0.45:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?0:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?-0.78:-0.98)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?333:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?180:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?231:282)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_0_5" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?99:299)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?0.95:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?-0.71:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?0.1:0.84)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?184:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?139:199)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?0.31:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?-0.71:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?-0.99:-0.54)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?378:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?225:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?276:327)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_0_6" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?99:299)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?0.45:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?-0:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?0.78:0.98)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?184:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?139:199)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?0.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?-1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?-0.63:0.21)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?423:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?270:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?321:372)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_0_7" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?99:299)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?-0.31:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?0.71:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?0.99:0.54)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?184:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?139:199)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?0.95:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?-0.71:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?0.1:0.84)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?468:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?315:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?366:417)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_1_0" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?124:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?359:74)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?-0.98:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?0.96:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?0.37:-0.48)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?209:214)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?0.17:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?0.29:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?0.93:0.87)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?170:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?17:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?68:119)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_1_1" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?124:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?359:74)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?-0.82:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?0.47:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?-0.39:-0.96)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?209:214)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?-0.57:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?0.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?0.92:0.28)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?215:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?62:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?113:164)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_1_2" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?124:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?359:74)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?-0.17:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?-0.29:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?-0.93:-0.87)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?209:214)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?-0.98:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?0.96:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?0.37:-0.48)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?260:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?107:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?158:209)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_1_3" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?124:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?359:74)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?0.57:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?-0.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?-0.92:-0.28)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?209:214)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?-0.82:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?0.47:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?-0.39:-0.96)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?305:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?152:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?203:254)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_1_4" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?124:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?359:74)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?0.98:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?-0.96:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?-0.37:0.48)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?209:214)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?-0.17:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?-0.29:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?-0.93:-0.87)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?350:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?197:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?248:299)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_1_5" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?124:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?359:74)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?0.82:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?-0.47:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?0.39:0.96)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?209:214)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?0.57:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?-0.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?-0.92:-0.28)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?395:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?242:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?293:344)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_1_6" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?124:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?359:74)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?0.17:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?0.29:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?0.93:0.87)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?209:214)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?0.98:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?-0.96:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?-0.37:0.48)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?440:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?287:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?338:389)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_1_7" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?124:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?359:74)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?-0.57:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?0.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?0.92:0.28)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?209:214)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?0.82:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?-0.47:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?0.39:0.96)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?485:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?332:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?383:434)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_2_0" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?219:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?189:319)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?-0.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?0.83:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?0.09:-0.72)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?214:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?94:109)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?-0.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?0.56:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?1:0.69)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?187:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?34:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?85:136)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_2_1" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?219:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?189:319)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?-0.62:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?0.19:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?-0.64:-1)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?214:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?94:109)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?-0.79:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?0.98:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?0.77:-0.02)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?232:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?79:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?130:181)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_2_2" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?219:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?189:319)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?0.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?-0.56:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?-1:-0.69)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?214:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?94:109)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?-0.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?0.83:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?0.09:-0.72)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?277:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?124:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?175:226)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_2_3" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?219:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?189:319)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?0.79:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?-0.98:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?-0.77:0.02)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?214:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?94:109)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?-0.62:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?0.19:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?-0.64:-1)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?322:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?169:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?220:271)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_2_4" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?219:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?189:319)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?0.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?-0.83:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?-0.09:0.72)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?214:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?94:109)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?0.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?-0.56:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?-1:-0.69)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?367:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?214:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?265:316)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_2_5" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?219:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?189:319)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?0.62:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?-0.19:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?0.64:1)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?214:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?94:109)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.85)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?0.79:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?-0.98:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?-0.77:0.02)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?412:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?259:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?310:361)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_2_6" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?219:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?189:319)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?-0.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?0.56:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?1:0.69)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?214:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?94:109)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*0.7)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?0.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?-0.83:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?-0.09:0.72)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?457:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?304:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?355:406)))+-126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="blast_2_7" x="0" y="0" width="16" height="16" pivotX="0.5" pivotY="0.5">
+                <Transform target="x" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?219:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?189:319)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?-0.79:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?0.98:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?0.77:-0.02)))-8"/>
+                <Transform target="y" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?214:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?94:109)))+(6+34*(1-(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1))*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)))*1)*(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?0.62:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?-0.19:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?0.64:1)))-8"/>
+                <Transform target="angle" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?502:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?349:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?400:451)))+126.05*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="scaleX" value="1-0.5*(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)"/>
+                <Transform target="alpha" value="1.1&gt;15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))?255*(1-(15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))/1.1)):0"/>
+                <PartDraw x="0" y="0" width="16" height="16">
+                    <Line startX="4" startY="8" endX="12" endY="8"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.4" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <!-- Shots -->
+            <Group name="shot_0" x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))&gt;=14.3?255:0"/>
+                <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                    <Line startX="0" startY="0" endX="0" endY="0"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.12" cap="ROUND"/><Transform target="startX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?413.49:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?181.9:24.51)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?299:144)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?413.49:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?181.9:24.51))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="startY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?24.51:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?413.49:181.9)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?139:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?199:184)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?24.51:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?413.49:181.9))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="endX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?413.49:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?181.9:24.51)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?299:144)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?413.49:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?181.9:24.51))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))-14.3)/0.65,0,1)"/><Transform target="endY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?24.51:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?413.49:181.9)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?139:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?199:184)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?24.51:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?413.49:181.9))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))-14.3)/0.65,0,1)"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="438" height="438">
+                    <Line startX="0" startY="0" endX="0" endY="0"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.6" cap="ROUND"/><Transform target="startX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?413.49:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?181.9:24.51)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?299:144)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?413.49:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?181.9:24.51))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="startY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?24.51:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?413.49:181.9)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?139:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?199:184)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?24.51:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?413.49:181.9))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="endX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?413.49:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?181.9:24.51)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?264:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?299:144)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?413.49:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?181.9:24.51))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))-14.3)/0.65,0,1)"/><Transform target="endY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?24.51:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?413.49:181.9)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?84:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?139:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?199:184)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==0?24.51:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==1?256.1:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))==2?413.49:181.9))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+72.5)/60))-14.3)/0.65,0,1)"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="shot_1" x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))&gt;=14.3?255:0"/>
+                <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                    <Line startX="0" startY="0" endX="0" endY="0"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.12" cap="ROUND"/><Transform target="startX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?368.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?89.62:69.11)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?359:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?74:124)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?368.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?89.62:69.11))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="startY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?69.11:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?368.89:89.62)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?209:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?214:94)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?69.11:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?368.89:89.62))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="endX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?368.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?89.62:69.11)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?359:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?74:124)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?368.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?89.62:69.11))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))-14.3)/0.65,0,1)"/><Transform target="endY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?69.11:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?368.89:89.62)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?209:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?214:94)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?69.11:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?368.89:89.62))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))-14.3)/0.65,0,1)"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="438" height="438">
+                    <Line startX="0" startY="0" endX="0" endY="0"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.6" cap="ROUND"/><Transform target="startX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?368.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?89.62:69.11)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?359:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?74:124)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?368.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?89.62:69.11))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="startY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?69.11:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?368.89:89.62)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?209:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?214:94)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?69.11:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?368.89:89.62))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="endX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?368.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?89.62:69.11)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?344:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?359:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?74:124)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?368.89:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?89.62:69.11))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))-14.3)/0.65,0,1)"/><Transform target="endY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?69.11:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?368.89:89.62)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?144:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?209:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?214:94)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==0?69.11:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==1?348.38:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))==2?368.89:89.62))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+67.5)/60))-14.3)/0.65,0,1)"/></Line>
+                </PartDraw>
+            </Group>
+            <Group name="shot_2" x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))&gt;=14.3?255:0"/>
+                <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                    <Line startX="0" startY="0" endX="0" endY="0"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.12" cap="ROUND"/><Transform target="startX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?284.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?32.01:153.88)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?189:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?319:219)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?284.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?32.01:153.88))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="startY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?153.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?284.12:32.01)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?109:214)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?153.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?284.12:32.01))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="endX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?284.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?32.01:153.88)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?189:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?319:219)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?284.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?32.01:153.88))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))-14.3)/0.65,0,1)"/><Transform target="endY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?153.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?284.12:32.01)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?109:214)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?153.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?284.12:32.01))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))-14.3)/0.65,0,1)"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="438" height="438">
+                    <Line startX="0" startY="0" endX="0" endY="0"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.6" cap="ROUND"/><Transform target="startX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?284.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?32.01:153.88)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?189:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?319:219)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?284.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?32.01:153.88))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="startY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?153.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?284.12:32.01)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?109:214)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?153.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?284.12:32.01))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))-14.3)/0.65-0.3,0,1)"/><Transform target="endX" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?284.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?32.01:153.88)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?239:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?189:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?319:219)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?284.12:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?32.01:153.88))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))-14.3)/0.65,0,1)"/><Transform target="endY" value="(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?153.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?284.12:32.01)))+((floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?164:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?94:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?109:214)))-(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==0?153.88:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==1?405.99:(floor(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))==2?284.12:32.01))))*clamp((15*fract(4*fract((([SECOND]+[SECOND_MILLISECOND]/1000)+62.5)/60))-14.3)/0.65,0,1)"/></Line>
+                </PartDraw>
+            </Group>
+            <!-- Rocket -->
+            <Group name="rocket" x="0" y="0" width="438" height="438" pivotX="0.5" pivotY="0.5">
+                <Transform target="angle" value="([SECOND]+[SECOND_MILLISECOND]/1000)*6"/>
+                <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                    <Line startX="237" startY="21" endX="222" endY="16"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
+                    <Line startX="222" startY="16" endX="211" endY="7"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
+                    <Line startX="211" startY="7" endX="214" endY="17"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
+                    <Line startX="214" startY="17" endX="206" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
+                    <Line startX="206" startY="21" endX="214" endY="25"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
+                    <Line startX="214" startY="25" endX="211" endY="35"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
+                    <Line startX="211" startY="35" endX="222" endY="26"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
+                    <Line startX="222" startY="26" endX="237" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="438" height="438">
+                    <Line startX="237" startY="21" endX="222" endY="16"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
+                    <Line startX="222" startY="16" endX="211" endY="7"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
+                    <Line startX="211" startY="7" endX="214" endY="17"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
+                    <Line startX="214" startY="17" endX="206" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
+                    <Line startX="206" startY="21" endX="214" endY="25"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
+                    <Line startX="214" startY="25" endX="211" endY="35"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
+                    <Line startX="211" startY="35" endX="222" endY="26"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
+                    <Line startX="222" startY="26" endX="237" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="438" height="438" alpha="179">
+                    <Line startX="217" startY="21" endX="230" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="1" cap="ROUND"/></Line>
+                </PartDraw>
+                <PartDraw x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="255*0.85*(0.65+0.35*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*52))"/>
+                    <Line startX="205" startY="18.5" endX="194" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                    <Line startX="194" startY="21" endX="205" endY="23.5"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
+                </PartDraw>
+            </Group>
+            <!-- Steps -->
+            <PartDraw x="0" y="0" width="438" height="438" alpha="71">
+                <Rectangle x="134.15" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="142.72" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="151.29" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="159.87" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="168.44" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="177.01" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="185.58" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="194.15" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="202.72" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="211.29" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="219.86" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="228.43" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="237" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="245.57" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="254.14" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="262.71" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="271.28" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="279.85" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="288.42" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+                <Rectangle x="296.99" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.1]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=5?255:0"/>
+                <Rectangle x="134.15" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=10?255:0"/>
+                <Rectangle x="142.72" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=15?255:0"/>
+                <Rectangle x="151.29" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=20?255:0"/>
+                <Rectangle x="159.87" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=25?255:0"/>
+                <Rectangle x="168.44" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=30?255:0"/>
+                <Rectangle x="177.01" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=35?255:0"/>
+                <Rectangle x="185.58" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=40?255:0"/>
+                <Rectangle x="194.15" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=45?255:0"/>
+                <Rectangle x="202.72" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=50?255:0"/>
+                <Rectangle x="211.29" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=55?255:0"/>
+                <Rectangle x="219.86" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=60?255:0"/>
+                <Rectangle x="228.43" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=65?255:0"/>
+                <Rectangle x="237" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=70?255:0"/>
+                <Rectangle x="245.57" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=75?255:0"/>
+                <Rectangle x="254.14" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=80?255:0"/>
+                <Rectangle x="262.71" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=85?255:0"/>
+                <Rectangle x="271.28" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=90?255:0"/>
+                <Rectangle x="279.85" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=95?255:0"/>
+                <Rectangle x="288.42" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=100?255:0"/>
+                <Rectangle x="296.99" y="275.38" width="6.86" height="5.81"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+            </PartDraw>
+            <PartText x="0" y="252" width="438" height="24">
+                <Text align="CENTER">
+                    <Font family="SYNC_TO_DEVICE" size="14.94" weight="BOLD" color="[CONFIGURATION.palette.0]">
+                        <Template>%s pasos · %d%%<Parameter expression='numberFormat("#,##0",[STEP_COUNT])'/><Parameter expression="round(clamp([STEP_PERCENT],0,100))"/></Template>
+                    </Font>
+                </Text>
+            </PartText>
+            <!-- Clock -->
+            <Group name="clock_normal" x="0" y="0" width="438" height="438">
+                <Transform target="x" value="([HOUR_1_12]&gt;=10?0:([HOUR_1_12]==1?-54.98/2:-54.98/2+38.49/2))"/>
+                <Group name="seg_0_b" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="[HOUR_1_12]&gt;=10?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="126.94" startY="302.57" endX="122.62" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="126.94" startY="302.57" endX="122.62" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_0_c" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="[HOUR_1_12]&gt;=10?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="120.69" startY="333.81" endX="116.37" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="120.69" startY="333.81" endX="116.37" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_a" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==1||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==4)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="146.46" startY="297.76" endX="178.08" endY="297.76"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="146.46" startY="297.76" endX="178.08" endY="297.76"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_b" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==5||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==6)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="181.92" startY="302.57" endX="177.6" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="181.92" startY="302.57" endX="177.6" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_c" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==2)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="175.68" startY="333.81" endX="171.35" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="175.68" startY="333.81" endX="171.35" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_d" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==1||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==4||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="133.96" startY="360.24" endX="165.58" endY="360.24"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="133.96" startY="360.24" endX="165.58" endY="360.24"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_e" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==0||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==2||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==6||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==8)?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="134.44" startY="333.81" endX="130.12" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="134.44" startY="333.81" endX="130.12" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_f" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==1||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==2||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==3||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="140.69" startY="302.57" endX="136.36" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="140.69" startY="302.57" endX="136.36" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_g" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==0||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==1||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="140.21" startY="329" endX="171.83" endY="329"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="140.21" startY="329" endX="171.83" endY="329"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_a" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==1||floor([MINUTE]/10)==4)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="233.93" startY="297.76" endX="265.55" endY="297.76"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="233.93" startY="297.76" endX="265.55" endY="297.76"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_b" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==5||floor([MINUTE]/10)==6)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="269.4" startY="302.57" endX="265.07" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="269.4" startY="302.57" endX="265.07" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_c" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==2)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="263.15" startY="333.81" endX="258.82" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="263.15" startY="333.81" endX="258.82" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_d" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==1||floor([MINUTE]/10)==4||floor([MINUTE]/10)==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="221.44" startY="360.24" endX="253.05" endY="360.24"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="221.44" startY="360.24" endX="253.05" endY="360.24"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_e" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==0||floor([MINUTE]/10)==2||floor([MINUTE]/10)==6||floor([MINUTE]/10)==8)?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="221.91" startY="333.81" endX="217.59" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="221.91" startY="333.81" endX="217.59" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_f" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==1||floor([MINUTE]/10)==2||floor([MINUTE]/10)==3||floor([MINUTE]/10)==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="228.16" startY="302.57" endX="223.84" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="228.16" startY="302.57" endX="223.84" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_g" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==0||floor([MINUTE]/10)==1||floor([MINUTE]/10)==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="227.68" startY="329" endX="259.3" endY="329"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="227.68" startY="329" endX="259.3" endY="329"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_a" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==1||([MINUTE]-10*floor([MINUTE]/10))==4)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="288.92" startY="297.76" endX="320.53" endY="297.76"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="288.92" startY="297.76" endX="320.53" endY="297.76"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_b" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==5||([MINUTE]-10*floor([MINUTE]/10))==6)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="324.38" startY="302.57" endX="320.06" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="324.38" startY="302.57" endX="320.06" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_c" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==2)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="318.13" startY="333.81" endX="313.81" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="318.13" startY="333.81" endX="313.81" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_d" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==1||([MINUTE]-10*floor([MINUTE]/10))==4||([MINUTE]-10*floor([MINUTE]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="276.42" startY="360.24" endX="308.03" endY="360.24"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="276.42" startY="360.24" endX="308.03" endY="360.24"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_e" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==0||([MINUTE]-10*floor([MINUTE]/10))==2||([MINUTE]-10*floor([MINUTE]/10))==6||([MINUTE]-10*floor([MINUTE]/10))==8)?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="276.89" startY="333.81" endX="272.57" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="276.89" startY="333.81" endX="272.57" endY="355.43"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_f" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==1||([MINUTE]-10*floor([MINUTE]/10))==2||([MINUTE]-10*floor([MINUTE]/10))==3||([MINUTE]-10*floor([MINUTE]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="283.14" startY="302.57" endX="278.82" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="283.14" startY="302.57" endX="278.82" endY="324.19"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_g" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==0||([MINUTE]-10*floor([MINUTE]/10))==1||([MINUTE]-10*floor([MINUTE]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="41">
+                        <Line startX="282.67" startY="329" endX="314.28" endY="329"><Stroke color="[CONFIGURATION.palette.0]" thickness="17.59" cap="ROUND"/></Line>
+                    </PartDraw>
+                    <PartDraw x="0" y="0" width="438" height="438">
+                        <Line startX="282.67" startY="329" endX="314.28" endY="329"><Stroke color="[CONFIGURATION.palette.0]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <PartDraw x="0" y="0" width="438" height="438">
+                    <Rectangle x="199.16" y="313.41" width="6.19" height="6.19"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+                    <Rectangle x="194.16" y="338.4" width="6.19" height="6.19"><Fill color="[CONFIGURATION.palette.0]"/></Rectangle>
+                </PartDraw>
+            </Group>
+            <!-- Date -->
+            <PartText x="0" y="371" width="438" height="24">
+                <Text align="CENTER">
+                    <Font family="SYNC_TO_DEVICE" size="16" weight="NORMAL" color="[CONFIGURATION.palette.1]">
+                        <Template>%s %s %s<Parameter expression="[DAY_OF_WEEK_S]"/><Parameter expression="[DAY]"/><Parameter expression="[MONTH_S]"/></Template>
+                    </Font>
+                </Text>
+            </PartText>
+        </Group>
+        <!-- Always-On mode -->
+        <Group name="ambient" x="0" y="0" width="438" height="438" alpha="0">
+            <Variant mode="AMBIENT" target="alpha" value="255"/>
+            <PartDraw x="0" y="0" width="438" height="438" alpha="115">
+                <Line startX="134.15" startY="284.19" endX="303.85" endY="284.19"><Stroke color="[CONFIGURATION.palette.2]" thickness="1" cap="BUTT"/></Line>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=5?230:0"/>
+                <Rectangle x="134.65" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=10?230:0"/>
+                <Rectangle x="143.22" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=15?230:0"/>
+                <Rectangle x="151.79" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=20?230:0"/>
+                <Rectangle x="160.37" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=25?230:0"/>
+                <Rectangle x="168.94" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=30?230:0"/>
+                <Rectangle x="177.51" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=35?230:0"/>
+                <Rectangle x="186.08" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=40?230:0"/>
+                <Rectangle x="194.65" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=45?230:0"/>
+                <Rectangle x="203.22" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=50?230:0"/>
+                <Rectangle x="211.79" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=55?230:0"/>
+                <Rectangle x="220.36" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=60?230:0"/>
+                <Rectangle x="228.93" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=65?230:0"/>
+                <Rectangle x="237.5" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=70?230:0"/>
+                <Rectangle x="246.07" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=75?230:0"/>
+                <Rectangle x="254.64" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=80?230:0"/>
+                <Rectangle x="263.21" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=85?230:0"/>
+                <Rectangle x="271.78" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=90?230:0"/>
+                <Rectangle x="280.35" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=95?230:0"/>
+                <Rectangle x="288.92" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartDraw x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="clamp([STEP_PERCENT],0,100)&gt;=100?230:0"/>
+                <Rectangle x="297.49" y="275.88" width="5.86" height="4.81"><Stroke color="[CONFIGURATION.palette.2]" thickness="1"/></Rectangle>
+            </PartDraw>
+            <PartText x="0" y="252" width="438" height="24">
+                <Text align="CENTER">
+                    <Font family="SYNC_TO_DEVICE" size="14.94" weight="NORMAL" color="[CONFIGURATION.palette.2]">
+                        <Template>%s pasos · %d%%<Parameter expression='numberFormat("#,##0",[STEP_COUNT])'/><Parameter expression="round(clamp([STEP_PERCENT],0,100))"/></Template>
+                    </Font>
+                </Text>
+            </PartText>
+            <Group name="clock_ambient" x="0" y="0" width="438" height="438">
+                <Transform target="x" value="([HOUR_1_12]&gt;=10?0:([HOUR_1_12]==1?-54.98/2:-54.98/2+38.49/2))"/>
+                <Group name="seg_0_b" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="[HOUR_1_12]&gt;=10?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="126.94" startY="302.57" endX="122.62" endY="324.19"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_0_c" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="[HOUR_1_12]&gt;=10?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="120.69" startY="333.81" endX="116.37" endY="355.43"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_a" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==1||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==4)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="146.46" startY="297.76" endX="178.08" endY="297.76"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_b" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==5||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==6)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="181.92" startY="302.57" endX="177.6" endY="324.19"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_c" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==2)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="175.68" startY="333.81" endX="171.35" endY="355.43"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_d" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==1||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==4||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="133.96" startY="360.24" endX="165.58" endY="360.24"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_e" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==0||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==2||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==6||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==8)?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="134.44" startY="333.81" endX="130.12" endY="355.43"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_f" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==1||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==2||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==3||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="140.69" startY="302.57" endX="136.36" endY="324.19"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_1_g" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([HOUR_1_12]-10*floor([HOUR_1_12]/10))==0||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==1||([HOUR_1_12]-10*floor([HOUR_1_12]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="140.21" startY="329" endX="171.83" endY="329"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_a" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==1||floor([MINUTE]/10)==4)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="233.93" startY="297.76" endX="265.55" endY="297.76"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_b" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==5||floor([MINUTE]/10)==6)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="269.4" startY="302.57" endX="265.07" endY="324.19"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_c" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==2)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="263.15" startY="333.81" endX="258.82" endY="355.43"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_d" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==1||floor([MINUTE]/10)==4||floor([MINUTE]/10)==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="221.44" startY="360.24" endX="253.05" endY="360.24"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_e" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==0||floor([MINUTE]/10)==2||floor([MINUTE]/10)==6||floor([MINUTE]/10)==8)?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="221.91" startY="333.81" endX="217.59" endY="355.43"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_f" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==1||floor([MINUTE]/10)==2||floor([MINUTE]/10)==3||floor([MINUTE]/10)==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="228.16" startY="302.57" endX="223.84" endY="324.19"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_2_g" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(floor([MINUTE]/10)==0||floor([MINUTE]/10)==1||floor([MINUTE]/10)==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="227.68" startY="329" endX="259.3" endY="329"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_a" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==1||([MINUTE]-10*floor([MINUTE]/10))==4)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="288.92" startY="297.76" endX="320.53" endY="297.76"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_b" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==5||([MINUTE]-10*floor([MINUTE]/10))==6)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="324.38" startY="302.57" endX="320.06" endY="324.19"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_c" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==2)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="318.13" startY="333.81" endX="313.81" endY="355.43"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_d" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==1||([MINUTE]-10*floor([MINUTE]/10))==4||([MINUTE]-10*floor([MINUTE]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="276.42" startY="360.24" endX="308.03" endY="360.24"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_e" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==0||([MINUTE]-10*floor([MINUTE]/10))==2||([MINUTE]-10*floor([MINUTE]/10))==6||([MINUTE]-10*floor([MINUTE]/10))==8)?255:0"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="276.89" startY="333.81" endX="272.57" endY="355.43"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_f" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==1||([MINUTE]-10*floor([MINUTE]/10))==2||([MINUTE]-10*floor([MINUTE]/10))==3||([MINUTE]-10*floor([MINUTE]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="283.14" startY="302.57" endX="278.82" endY="324.19"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <Group name="seg_3_g" x="0" y="0" width="438" height="438">
+                    <Transform target="alpha" value="(([MINUTE]-10*floor([MINUTE]/10))==0||([MINUTE]-10*floor([MINUTE]/10))==1||([MINUTE]-10*floor([MINUTE]/10))==7)?0:255"/>
+                    <PartDraw x="0" y="0" width="438" height="438" alpha="242">
+                        <Line startX="282.67" startY="329" endX="314.28" endY="329"><Stroke color="[CONFIGURATION.palette.2]" thickness="5.5" cap="ROUND"/></Line>
+                    </PartDraw>
+                </Group>
+                <PartDraw x="0" y="0" width="438" height="438">
+                    <Rectangle x="199.16" y="313.41" width="6.19" height="6.19"><Fill color="[CONFIGURATION.palette.2]"/></Rectangle>
+                    <Rectangle x="194.16" y="338.4" width="6.19" height="6.19"><Fill color="[CONFIGURATION.palette.2]"/></Rectangle>
+                </PartDraw>
+            </Group>
+            <PartText x="0" y="371" width="438" height="24">
+                <Text align="CENTER">
+                    <Font family="SYNC_TO_DEVICE" size="16" weight="THIN" color="[CONFIGURATION.palette.2]">
+                        <Template>%s %s %s<Parameter expression="[DAY_OF_WEEK_S]"/><Parameter expression="[DAY]"/><Parameter expression="[MONTH_S]"/></Template>
+                    </Font>
+                </Text>
+            </PartText>
+        </Group>
+    </Scene>
+</WatchFace>

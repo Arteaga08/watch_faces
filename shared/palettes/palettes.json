@@ -1,7 +1,38 @@
 {
-  "phosphorGreen": { "label": "Fósforo",  "primary": "#33FF66", "secondary": "#1A9940", "ambient": "#2ACC52" },
-  "amber":         { "label": "Ámbar",    "primary": "#FFB000", "secondary": "#996A00", "ambient": "#CC8D00" },
-  "cyan":          { "label": "Cian",     "primary": "#00E5FF", "secondary": "#008A99", "ambient": "#00B7CC" },
-  "magenta":       { "label": "Magenta",  "primary": "#FF3DCB", "secondary": "#99257A", "ambient": "#CC31A2" },
-  "white":         { "label": "Blanco",   "primary": "#E8F0E8", "secondary": "#8B908B", "ambient": "#BAC0BA" }
+  "navy": {
+    "label": "Azul marino",
+    "primary": "#4F86FF",
+    "secondary": "#2B4FA8",
+    "ambient": "#3C66CC"
+  },
+  "phosphorGreen": {
+    "label": "Fósforo",
+    "primary": "#33FF66",
+    "secondary": "#1A9940",
+    "ambient": "#2ACC52"
+  },
+  "amber": {
+    "label": "Ámbar",
+    "primary": "#FFB000",
+    "secondary": "#996A00",
+    "ambient": "#CC8D00"
+  },
+  "cyan": {
+    "label": "Cian",
+    "primary": "#00E5FF",
+    "secondary": "#008A99",
+    "ambient": "#00B7CC"
+  },
+  "magenta": {
+    "label": "Magenta",
+    "primary": "#FF3DCB",
+    "secondary": "#99257A",
+    "ambient": "#CC31A2"
+  },
+  "white": {
+    "label": "Blanco",
+    "primary": "#E8F0E8",
+    "secondary": "#8B908B",
+    "ambient": "#BAC0BA"
+  }
 }

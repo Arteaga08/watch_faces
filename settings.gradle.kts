@@ -18,3 +18,4 @@ rootProject.name = "watch_faces"
 
 // One module per watch face. new-face.sh appends new entries below.
 include(":faces:template")
+include(":faces:centinela")
