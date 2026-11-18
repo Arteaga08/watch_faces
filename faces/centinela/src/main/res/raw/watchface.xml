@@ -386,36 +386,16 @@
                 </PartDraw>
             </Group>
             <!-- Rocket -->
-            <Group name="rocket" x="0" y="0" width="438" height="438" pivotX="0.5" pivotY="0.5">
-                <Transform target="angle" value="([SECOND]+[SECOND_MILLISECOND]/1000)*6"/>
-                <PartDraw x="0" y="0" width="438" height="438" alpha="41">
-                    <Line startX="237" startY="21" endX="222" endY="16"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
-                    <Line startX="222" startY="16" endX="211" endY="7"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
-                    <Line startX="211" startY="7" endX="214" endY="17"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
-                    <Line startX="214" startY="17" endX="206" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
-                    <Line startX="206" startY="21" endX="214" endY="25"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
-                    <Line startX="214" startY="25" endX="211" endY="35"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
-                    <Line startX="211" startY="35" endX="222" endY="26"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
-                    <Line startX="222" startY="26" endX="237" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="4.8" cap="ROUND"/></Line>
-                </PartDraw>
-                <PartDraw x="0" y="0" width="438" height="438">
-                    <Line startX="237" startY="21" endX="222" endY="16"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
-                    <Line startX="222" startY="16" endX="211" endY="7"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
-                    <Line startX="211" startY="7" endX="214" endY="17"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
-                    <Line startX="214" startY="17" endX="206" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
-                    <Line startX="206" startY="21" endX="214" endY="25"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
-                    <Line startX="214" startY="25" endX="211" endY="35"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
-                    <Line startX="211" startY="35" endX="222" endY="26"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
-                    <Line startX="222" startY="26" endX="237" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.5" cap="ROUND"/></Line>
-                </PartDraw>
-                <PartDraw x="0" y="0" width="438" height="438" alpha="179">
-                    <Line startX="217" startY="21" endX="230" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="1" cap="ROUND"/></Line>
-                </PartDraw>
-                <PartDraw x="0" y="0" width="438" height="438">
-                    <Transform target="alpha" value="255*0.85*(0.65+0.35*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*52))"/>
-                    <Line startX="205" startY="18.5" endX="194" endY="21"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
-                    <Line startX="194" startY="21" endX="205" endY="23.5"><Stroke color="[CONFIGURATION.palette.0]" thickness="1.2" cap="ROUND"/></Line>
-                </PartDraw>
+            <Group name="rocket_hull" x="0" y="0" width="438" height="438">
+                <AnalogClock x="0" y="0" width="438" height="438">
+                    <SecondHand resource="rocket_hull" x="0" y="0" width="438" height="438" pivotX="0.5" pivotY="0.5" tintColor="[CONFIGURATION.palette.0]"><Sweep frequency="SYNC_TO_DEVICE"/></SecondHand>
+                </AnalogClock>
+            </Group>
+            <Group name="rocket_flame" x="0" y="0" width="438" height="438">
+                <Transform target="alpha" value="255*0.85*(0.65+0.35*sin(([SECOND]+[SECOND_MILLISECOND]/1000)*52))"/>
+                <AnalogClock x="0" y="0" width="438" height="438">
+                    <SecondHand resource="rocket_flame" x="0" y="0" width="438" height="438" pivotX="0.5" pivotY="0.5" tintColor="[CONFIGURATION.palette.0]"><Sweep frequency="SYNC_TO_DEVICE"/></SecondHand>
+                </AnalogClock>
             </Group>
             <!-- Steps -->
             <PartDraw x="0" y="0" width="438" height="438" alpha="71">
