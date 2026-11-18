@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "wear-os-expert": {
+      "source": "anubhavg-icpl/vibe",
+      "sourceType": "github",
+      "skillPath": "skills/wear-os-expert/SKILL.md",
+      "computedHash": "df408ef858ac88fe4b705cb6d41d3da23f0fa6ad0b86baad738d823bb5d9dd48"
+    }
+  }
+}
